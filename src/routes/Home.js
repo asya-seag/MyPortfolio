@@ -16,7 +16,7 @@ function Home() {
           <div className="intro">
             <h1>Hello, I’m Asya Seagrave.</h1>
             <p>
-              Junior Frontend Developer with background in Economics +
+              Junior Developer with background in Economics +
               Translation
             </p>
           </div>
