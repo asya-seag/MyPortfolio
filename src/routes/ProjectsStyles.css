@@ -7,27 +7,33 @@
 
 .project-list h1 {
     font-size: 2rem;
+    margin-bottom: 20px; 
 }
 
 .project-list h2 {
     font-size: 1.5rem;
     color: white;
     margin-top: 20px;
+    margin-bottom: 10px; 
 }
 
-.project1Image {
-    max-width: 40%;
-    height: auto;
+.projectImage {
+    max-width: 40%; 
+    max-height: 40%;
     margin-top: 1rem;
 }
 
 .contact-link-p {
     font-size: 1rem;
     margin-top: 1rem;
-    display: inline-block;
+    display: block; 
+    color: white; 
 }
 
 
+.project-list div {
+    margin-bottom: 20px;
+}
 
 @media (max-width: 50em) {
     .project-list {
@@ -42,8 +48,8 @@
         font-size: 1.2rem;
     }
 
-    .project1Image {
-        margin-top: 0.5rem;
+    .project-list div {
+        margin-bottom: 8px;
     }
 
     .contact-link-p {
