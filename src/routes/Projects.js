@@ -42,7 +42,7 @@ const Projects = () => {
             description:
         "I used React to build this portfolio, it is my independent project and I have tried to implement components that i have not implemented before - top navigation bar, carousel.",
       image: project4,
-      githubLink: "https://github.com/asya-seag/Portfolio",
+      githubLink: "https://github.com/asya-seag/MyPortfolio",
     },
     {
       title: "Learning",
