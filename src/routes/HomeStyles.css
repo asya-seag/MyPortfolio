@@ -1,0 +1,66 @@
+.backgroundContainer {
+    position: relative;
+    height: calc(100vh - 50px);
+}
+
+.backgroundImage {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    padding: 5px;
+    margin-left: 45px;
+    box-sizing: border-box;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.content {
+    position: absolute;
+    top: 63%;
+    left: 26%;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.intro p {
+    font-size: 1.4vw;
+    color: white;
+}
+
+
+@media (max-width: 50em) {
+    .content {
+        position: absolute;
+        top: 52%;
+        left: 28%;
+        width: 50%;
+        color: white;
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 3.5vw;
+        margin-bottom: 0.5rem;
+        color: white;
+    }
+
+    .intro p {
+        font-size: 2.5vw;
+        color: white;
+    }
+}

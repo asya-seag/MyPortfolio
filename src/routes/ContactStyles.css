@@ -1,0 +1,58 @@
+.main-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-left {
+  flex: 1;
+  text-align: left;
+  font-size: 4rem;
+  margin: 1rem 0;
+  padding-top: 40px;
+}
+
+.contact-right {
+  flex: 1;
+  margin-left: 1rem;
+  margin-top: 10rem;
+}
+
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-in-touch-button,
+.mobile,
+.contact-link {
+  font-size: 2rem;
+  text-align: left;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-heading {
+  font-size: 3.5rem;
+}
+
+.get-in-touch-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 50em) {
+  .contact-heading {
+    font-size: 2.6rem;
+  }
+
+  .contact-details {
+    align-items: flex-start;
+  }
+}
