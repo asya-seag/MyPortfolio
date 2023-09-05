@@ -48,11 +48,21 @@
 }
 
 @media (max-width: 50em) {
+  .get-in-touch-button,
+  .mobile,
+  .contact-link,
   .contact-heading {
-    font-size: 2.6rem;
+    font-size: 1.6rem; 
+    margin-left: 20px;
   }
 
-  .contact-details {
-    align-items: flex-start;
+  
+  .main-contact {
+    flex-direction: column; 
+  }
+
+  .contact-left,
+  .contact-right {
+    margin: 0.3rem; 
   }
 }
