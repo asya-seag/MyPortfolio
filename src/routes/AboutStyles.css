@@ -1,61 +1,84 @@
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #4b4b4b;
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-
 .about-background {
-    flex-grow: 1;
     background-color: #4b4b4b;
     padding: 20px;
     overflow: auto;
-    max-height: calc(100% - 60px);
+    max-height: calc(100vh - 60px); 
+    margin-bottom: 30px;
 }
 
 .about-content {
-    display: flex;
-    flex-direction: column;
     margin: 2vw;
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .about-content h2 {
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: white;
+    color: #bbed2f; 
     text-align: left;
     margin-bottom: 0.5rem;
 }
 
-.about-content p {
-    font-size: 2.7vw;
+.about-content .intro p,
+.about-content .education p,
+.about-content .skills ul,
+.about-content .education ul {
+    font-size: 2rem;
     color: white;
     text-align: justify;
     margin-bottom: 0.8rem;
 }
 
+.about-content .intro h3,
+.about-content .skills h3,
+.about-content .education h3 {
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #bbed2f; 
+    text-align: left;
+}
+
+.education {
+    margin-bottom: 40px;
+}
+
 
 @media (max-width: 50em) {
+    .about-background {
+      background-color: #4b4b4b;
+      padding: 10px; 
+      overflow: auto;
+      max-height: calc(100vh - 60px);
+    }
+  
     .about-content {
-        align-items: center; 
-        text-align: center; 
-        padding: 10px 10px; 
+      margin: 10px 0; 
     }
-
+  
     .about-content h2 {
-        font-size: 1.7rem; 
-        margin-bottom: 1rem; 
+      font-size: 1.7rem; 
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #bbed2f;
+      text-align: left;
     }
-
+  
     .about-content p {
-        font-size: 1.5rem; 
-        margin-bottom: 1rem; 
+      font-size: 1.5rem; 
+      color: white;
+      text-align: justify;
+      margin-bottom: 1rem;
     }
-}
+  
+    .about-content h3 {
+      font-size: 1.7rem; 
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #bbed2f;
+      text-align: left;
+    }
+  }
+  

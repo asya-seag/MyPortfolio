@@ -47,6 +47,12 @@
   cursor: pointer;
 }
 
+.get-in-touch-button:hover,
+.contact-link:hover {
+  color: #bbed2f;
+}
+
+
 @media (max-width: 50em) {
   .get-in-touch-button,
   .mobile,
@@ -56,6 +62,10 @@
     margin-left: 20px;
   }
 
+  .get-in-touch-button:hover,
+  .contact-link:hover {
+    color: #bbed2f;
+  }
   
   .main-contact {
     flex-direction: column; 

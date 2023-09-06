@@ -25,6 +25,10 @@
   text-decoration: none;
 }
 
+.nav-menu li a:hover {
+  color: #bbed2f;
+}
+
 
 @media (max-width: 50em) {
   .nav-menu {
@@ -43,5 +47,9 @@
     font-weight: 600;
     color: white;
     text-decoration: none;
+  }
+
+  .nav-menu li a:hover {
+    color: #bbed2f;
   }
 }
