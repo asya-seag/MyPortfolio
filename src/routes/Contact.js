@@ -11,32 +11,30 @@ const handleEmailClick = () => {
 
 const Contact = () => {
   return (
-    <div>
+    <div> 
       <Navbar />
-      <div className="contact-background">
-        <div className="main-contact">
-          <div className="contact-left">
-            <h1 className="contact-heading">Get in touch</h1>
-          </div>
+      <div className="main-contact">
+        <div className="contact-left">
+          <h1 className="contact-heading">Get in touch</h1>
+        </div>
 
-          <div className="contact-right">
-            <button className="get-in-touch-button" onClick={handleEmailClick}>
-              E-mail: asyaseagrave@gmail.com
-            </button>
-            <p className="mobile">Mobile: 07770672445</p>
+        <div className="contact-right">
+          <button className="get-in-touch-button" onClick={handleEmailClick}>
+            E-mail: asyaseagrave@gmail.com
+          </button>
+          <p className="mobile">Mobile: 07770672445</p>
 
-            <a
-              href="https://www.linkedin.com/in/asya-seagrave/"
-              className="contact-link"
-            >
-              <LinkedinIcon className="linkedin-icon" />
-              My LinkedIn profile
-            </a>
-            <a href="https://github.com/asya-seag" className="contact-link">
-              <GitHubIcon className="github-icon" />
-              My GitHub page
-            </a>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/asya-seagrave/"
+            className="contact-link"
+          >
+            <LinkedinIcon className="linkedin-icon" />
+            My LinkedIn profile
+          </a>
+          <a href="https://github.com/asya-seag" className="contact-link">
+            <GitHubIcon className="github-icon" />
+            My GitHub page
+          </a>
         </div>
       </div>
     </div>
