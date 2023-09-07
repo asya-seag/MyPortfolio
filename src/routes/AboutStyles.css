@@ -68,6 +68,10 @@
     font-size: 1rem;
   }
 
+  .about-content .skills ul {
+    font-size:1.3rem
+  }
+
   .education {
     margin-bottom: 40px;
   }
