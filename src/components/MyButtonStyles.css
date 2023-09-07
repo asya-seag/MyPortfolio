@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   background-color: #bbed2f;
-  color: white;
+  color: #000000;
   padding: 8px 10px;
   border: none;
   border-radius: 40px;
@@ -37,7 +37,7 @@
     top: 100%;
     left: 28%;
     background-color: #bbed2f;
-    color: white;
+    color: #000000;
     border: none;
     padding: 5px 5px;
     border-radius: 20px;
