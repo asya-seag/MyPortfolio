@@ -59,7 +59,7 @@
     }
   
     .about-content h2 {
-      font-size: 1.3rem; 
+      font-size: 1rem; 
       font-weight: bold;
       margin-bottom: 1rem;
       color: #bbed2f;
@@ -67,14 +67,14 @@
     }
   
     .about-content p {
-      font-size: 1.1rem; 
+      font-size: 0.8rem; 
       color: white;
       text-align: justify;
       margin-bottom: 1rem;
     }
   
     .about-content h3 {
-      font-size: 1.3rem; 
+      font-size: 1rem; 
       font-weight: bold;
       margin-bottom: 1rem;
       color: #bbed2f;
