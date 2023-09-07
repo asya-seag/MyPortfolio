@@ -1,48 +1,48 @@
 .about-background {
-    background-color: #4b4b4b;
-    padding: 20px;
-    overflow: auto;
-    max-height: calc(100vh - 60px); 
-    margin-bottom: 30px;
+  background-color: #4b4b4b;
+  padding: 20px;
+  overflow: auto;
+  max-height: calc(100vh - 60px);
+  margin-bottom: 30px;
 }
 
 .about-content {
-    margin: 2vw;
-    max-width: 1200px; 
-    margin: 0 auto; 
+  margin: 2vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-content h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #bbed2f; 
-    text-align: left;
-    margin-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #bbed2f;
+  text-align: left;
+  margin-bottom: 0.5rem;
 }
 
 .about-content .intro p,
 .about-content .education p,
 .about-content .skills ul,
 .about-content .education ul {
-    font-size: 2rem;
-    color: white;
-    text-align: justify;
-    margin-bottom: 0.8rem;
+  font-size: 2rem;
+  color: white;
+  text-align: justify;
+  margin-bottom: 0.8rem;
 }
 
 .about-content .intro h3,
 .about-content .skills h3,
 .about-content .education h3 {
-    font-size: 3rem; 
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #bbed2f; 
-    text-align: left;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #bbed2f;
+  text-align: left;
 }
 
 .education {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 
@@ -56,16 +56,19 @@
     margin-bottom: 1rem;
   }
 
-  .about-content h2 {
-    font-size: 20px;
+  .about-content .intro h3,
+  .about-content .skills h3,
+  .about-content .education h3 {
+    font-size: 2rem;
   }
 
-  .about-content p {
-    font-size: 10px;
+  .about-content .intro p,
+  .about-content .education p,
+  .about-content .education ul {
+    font-size: 1rem;
   }
 
-  .about-content h3 {
-    font-size: 20px;
+  .education {
+    margin-bottom: 40px;
   }
 }
-  

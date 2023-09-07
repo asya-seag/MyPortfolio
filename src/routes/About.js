@@ -9,8 +9,8 @@ const AboutMe = () => {
       <Navbar />
       <div className="about-background">
         <div className="about-content">
-          <h2>About Me</h2>
           <div className="intro">
+            <h3>About Me</h3>
             <p>
               Highly motivated and adaptable professional with a Bachelor's
               Honours Degree in Economics and over 12 years of experience working
