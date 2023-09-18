@@ -27,8 +27,8 @@ const AboutMe = () => {
               I thrive as a self-starter, enthusiastically embracing new
               challenges, and eagerly contributing to dynamic teams tackling
               complex projects. I'm actively seeking opportunities to kick-start
-              my journey as a junior developer in a company that values the
-              supports continuous learning, and champions remote work options.
+              my journey as a junior developer in a company that supports
+              continuous learning, and champions remote work options.
             </p>
           </div>
           <div className="skills">
