@@ -28,6 +28,16 @@
   margin-bottom: 0.8rem;
 }
 
+.skills ul li::before {
+  content: "•";
+  color: #bbed2f;
+  display: inline-block;
+  width: 0.3rem;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
 .about-content .intro h3,
 .about-content .skills h3,
 .about-content .education h3 {
@@ -66,7 +76,7 @@
   }
 
   .about-content .skills ul {
-    font-size:1.3rem
+    font-size: 1.3rem
   }
 
   .education {
