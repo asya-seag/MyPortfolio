@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 
 <br>
 
-![Alt Text](screenshots/project4.png)
+![Screenshot](screenshots/project4.png)
 
 
 
