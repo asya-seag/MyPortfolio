@@ -43,7 +43,8 @@ To run this project locally, follow these steps:
   ```
   
   The application should now be running locally on http://localhost:3000.
-![Alt Text](https://github.com/asya-seag/MyPortfolio/blob/master/screenshots/Screenshots)
+  
+![https://github.com/asya-seag/MyPortfolio/blob/master/screenshots/Screenshots]
 
 
 
