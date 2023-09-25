@@ -5,7 +5,7 @@ Welcome to my portfolio! This web application is a showcase of my projects and s
 
 ## Live Demo
 
-Check out the live demo of my portfolio [here]([https://asya-seag.github.io/MyPortfolio/]).
+Check out the live demo of my portfolio [https://asya-seag.github.io/MyPortfolio/].
 
 ## Features
 
